@@ -1261,8 +1261,8 @@
       "id" : "49F16909-E942-444F-B18D-926FBC010A22",
       "kind" : {
         "dimensions" : [
-          "32 - 2*clr - 2*wall",
-          "8 - 2*clr - 2*wall",
+          "32 - 2*clr - 2*wall - pink_grip",
+          "8 - 2*clr - 2*wall - pink_grip",
           "2"
         ],
         "kind" : "box",
@@ -1288,7 +1288,7 @@
       "id" : "C0D9199D-3166-4A4C-9875-7590F974C1A8",
       "kind" : {
         "dimensions" : [
-          "stud_d",
+          "stud_d + pink_grip",
           "stud_h"
         ],
         "kind" : "cylinder",
@@ -1364,8 +1364,8 @@
       "id" : "B16A5B6F-A660-47E1-9DFC-2578E9E8444F",
       "kind" : {
         "dimensions" : [
-          "16 - 2*clr - 2*wall",
-          "32 - 2*clr - 2*wall",
+          "16 - 2*clr - 2*wall - pink_grip",
+          "32 - 2*clr - 2*wall - pink_grip",
           "2"
         ],
         "kind" : "box",
@@ -1391,7 +1391,7 @@
       "id" : "8B71B8FD-625B-4613-810A-F013F4A7853A",
       "kind" : {
         "dimensions" : [
-          "tube_od",
+          "tube_od + pink_grip",
           "2.5"
         ],
         "kind" : "cylinder",
@@ -1467,7 +1467,7 @@
       "id" : "A0E94CB3-FC8D-4B48-997E-019CF14492C6",
       "kind" : {
         "dimensions" : [
-          "stud_d",
+          "stud_d + pink_grip",
           "stud_h"
         ],
         "kind" : "cylinder",
@@ -1945,8 +1945,8 @@
       "id" : "D1BB524A-BAA9-471E-B466-D9BEEC468A01",
       "kind" : {
         "dimensions" : [
-          "32 - 2*clr - 2*wall",
-          "8 - 2*clr - 2*wall",
+          "32 - 2*clr - 2*wall - pink_grip",
+          "8 - 2*clr - 2*wall - pink_grip",
           "2"
         ],
         "kind" : "box",
@@ -1972,8 +1972,8 @@
       "id" : "FF1D68FE-AB64-447D-A759-30CF38D2BE3F",
       "kind" : {
         "dimensions" : [
-          "32 - 2*clr - 2*wall",
-          "8 - 2*clr - 2*wall",
+          "32 - 2*clr - 2*wall - pink_grip",
+          "8 - 2*clr - 2*wall - pink_grip",
           "2"
         ],
         "kind" : "box",
@@ -2012,7 +2012,7 @@
                 "x" : "-12",
                 "y" : "-20"
               },
-              "diameter" : "stud_d",
+              "diameter" : "stud_d + pink_grip",
               "type" : "circle"
             }
           },
@@ -2024,7 +2024,7 @@
                 "x" : "-4",
                 "y" : "-20"
               },
-              "diameter" : "stud_d",
+              "diameter" : "stud_d + pink_grip",
               "type" : "circle"
             }
           },
@@ -2036,7 +2036,7 @@
                 "x" : "4",
                 "y" : "-20"
               },
-              "diameter" : "stud_d",
+              "diameter" : "stud_d + pink_grip",
               "type" : "circle"
             }
           },
@@ -2048,7 +2048,7 @@
                 "x" : "12",
                 "y" : "-20"
               },
-              "diameter" : "stud_d",
+              "diameter" : "stud_d + pink_grip",
               "type" : "circle"
             }
           },
@@ -2060,7 +2060,7 @@
                 "x" : "-12",
                 "y" : "20"
               },
-              "diameter" : "stud_d",
+              "diameter" : "stud_d + pink_grip",
               "type" : "circle"
             }
           },
@@ -2072,7 +2072,7 @@
                 "x" : "-4",
                 "y" : "20"
               },
-              "diameter" : "stud_d",
+              "diameter" : "stud_d + pink_grip",
               "type" : "circle"
             }
           },
@@ -2084,7 +2084,7 @@
                 "x" : "4",
                 "y" : "20"
               },
-              "diameter" : "stud_d",
+              "diameter" : "stud_d + pink_grip",
               "type" : "circle"
             }
           },
@@ -2096,7 +2096,7 @@
                 "x" : "12",
                 "y" : "20"
               },
-              "diameter" : "stud_d",
+              "diameter" : "stud_d + pink_grip",
               "type" : "circle"
             }
           }
@@ -2220,6 +2220,12 @@
       "expression" : "0.1",
       "id" : "B7B5C885-F9BA-49FE-ACFF-BF0DB229E835",
       "name" : "eye_clr"
+    },
+    {
+      "comment" : "Extra tightness of pink parts: studs wider, sockets narrower by this much; raise if still loose",
+      "expression" : "0.15",
+      "id" : "FA3E0F4B-F4FF-49B9-B661-F4DA249D77D3",
+      "name" : "pink_grip"
     }
   ],
   "printer" : "bambu-a1-mini",
