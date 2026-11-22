@@ -2,6 +2,15 @@
 
 3D-print models designed with Claude Code in Fillet and printed through Bambu Studio.
 
+## Fillet
+
+Offline, parametric CAD for 3D-printable parts.
+
+- Website: https://fillet.jsdr.dev/
+- Docs: https://fillet.jsdr.dev/guides/getting-started/
+- Docs, connecting Claude Code: https://fillet.jsdr.dev/guides/agents-mcp/
+- Source and releases: https://github.com/Jensderond/fillet
+
 ## The `3d-print` skill
 
 One guided path from a description to a finished print. Claude asks, designs, exports and keeps git in order; you decide, slice, print and report.
