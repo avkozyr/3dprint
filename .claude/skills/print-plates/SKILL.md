@@ -25,6 +25,19 @@ Before anything else, know the printer and the filament of every plate. Never as
 - Use the printer for the Fillet bed check: the design's printer (`get_design`) must be the same model.
 - Compare with the Bambu project (`printer_settings_id`, `filament_settings_id`, `filament_colour` in `Metadata/project_settings.config`, and each object's `extruder` in `Metadata/model_settings.config`). If they differ from `layout.json`, do not edit the settings in the file: tell Alex exactly which printer, filament slot, preset and colour to set in Bambu Studio and to save. A material printed with the wrong profile gives bad fit (seen 2026-11-22: PETG sliced as PLA came out loose).
 
+## New model, first run
+
+A model that has no folder yet cannot go through the project build, because there is no Bambu project to update.
+
+1. Create the folder `YYYY-MM-DD-<name>/` in the repo root, date of today.
+2. Ask printer and filaments as described above.
+3. Work out the lay-flat move of every body (flat side down, lowest z = 0, bodies of one plate not overlapping) and group bodies into plates by colour. Write `layout.json` with `design`, `source`, `printer`, `filaments`, `plates`, `moves`; leave `project` out for now. Use the axolotl's `layout.json` as the pattern.
+4. Run steps 1 to 6 below, then commit and push.
+5. Tell Alex to do once in Bambu Studio: import all plate files of the folder, put each on its own plate, set printer and one filament per plate as recorded in `layout.json`, and save the project into the model folder. I do not open Bambu Studio for this.
+6. When Alex says it is saved: add the file name as `project` to `layout.json`, check it against printer and filaments, commit and push.
+
+From then on the normal steps apply.
+
 ## Before starting
 
 - Fillet tools (`mcp__fillet__*`) must be connected and the design named in `layout.json` must be the current one (`list_designs`, `select_design`).
