@@ -1,9 +1,9 @@
 ---
-name: print-model
+name: 3d-print
 description: Full path from a description of a 3D-print model to a finished print - asks the missing questions, designs in Fillet, exports plates per colour, sets up or updates the Bambu Studio project, guides Alex through slicing, printing and assembly, tunes fit from feedback, and keeps everything in git. Use when Alex describes something to print, wants to change or reprint a model in this repo, reports how a print fits, or says "save".
 ---
 
-# print-model
+# 3d-print
 
 One guided path: description, questions, design, export, Bambu Studio, print, fit feedback, git.
 
@@ -96,13 +96,13 @@ Then:
 
 1. Build: from the repo root
    ```
-   python3 -I .claude/skills/print-model/build_bambu_project.py "<model>/<project>" "<model>" "<scratchpad>/project-out.3mf"
+   python3 -I .claude/skills/3d-print/build_bambu_project.py "<model>/<project>" "<model>" "<scratchpad>/project-out.3mf"
    ```
    It swaps the shape of every part by the source file recorded in the project and keeps plates, positions, filaments and settings. Read the report: unchanged parts must show the same face count and bounds change 0, changed parts what is expected. Last line is `PROJECT CHANGED: <file>` or `PROJECT UNCHANGED`.
 2. A body was added or removed: the build cannot do that. Guide Alex to import the new plate file or delete the object in Bambu Studio, assign plate and filament, and save. **STOP** until saved.
 3. Unsaved check, if the project changed and Bambu Studio is running:
    ```
-   python3 -I .claude/skills/print-model/bambu_unsaved.py "<model>/<project>"
+   python3 -I .claude/skills/3d-print/bambu_unsaved.py "<model>/<project>"
    ```
    Differences listed: show them, **STOP**, and ask whether Alex saves first. No differences: copy the build output over the project file.
 
@@ -113,7 +113,7 @@ Then:
 1. Commit on the current branch: Conventional Commits, multiline, no co-author line. Push, then verify with `git fetch origin && git merge-base --is-ancestor HEAD origin/<branch>`. Nothing changed: say so, no commit.
 2. Only if the project file changed:
    ```
-   .claude/skills/print-model/reopen_bambu.sh "<model>/<project>"
+   .claude/skills/3d-print/reopen_bambu.sh "<model>/<project>"
    ```
    It records the window position, quits Bambu Studio, restores the position, opens the project and checks that one window sits in the same place.
 

@@ -2,7 +2,7 @@
 
 3D-print models designed with Claude Code in Fillet and printed through Bambu Studio.
 
-## The `print-model` skill
+## The `3d-print` skill
 
 One guided path from a description to a finished print. Claude asks, designs, exports and keeps git in order; you decide, slice, print and report.
 
@@ -19,7 +19,7 @@ One guided path from a description to a finished print. Claude asks, designs, ex
 
 ## How to use it
 
-Start Claude Code in this folder, with Fillet running. Then just say what you want, or type `/print-model`.
+Start Claude Code in this folder, with Fillet running. Then just say what you want, or type `/3d-print`.
 
 - **New model**: "I want a phone stand for A1 mini, black PETG." Missing details get asked.
 - **Change a model**: "make the axolotl eyes bigger."
@@ -47,4 +47,4 @@ Folders are named `YYYY-MM-DD-<name>`.
 - Terminal needs Full Disk Access (System Settings > Privacy & Security), otherwise Fillet's exports cannot be read.
 - A loose or tight fit is most often a wrong filament profile. Check that before changing the design.
 
-Skill files: `.claude/skills/print-model/`.
+Skill files: `.claude/skills/3d-print/`.
