@@ -14,6 +14,17 @@ Each model has its own folder in the repo with:
 - `plateN-<colour>.3mf`: one file per colour, Alex prints without AMS, one spool per plate
 - the Bambu Studio project named in `layout.json`: plates, filaments and print settings
 
+## Printer and filament
+
+Before anything else, know the printer and the filament of every plate. Never assume them.
+
+- Read `printer` and `filaments` from `layout.json`. If Alex named a printer or filament in the request, that wins: update `layout.json`.
+- If the printer is missing, ask Alex which printer and nozzle.
+- If a plate has no filament entry, ask Alex per plate: material type (PLA, PLA+, PETG, PETG matte, ...), colour, and brand if it is not Bambu. Ask all missing ones in one question round.
+- Write the answers into `layout.json`: `printer`, and per plate `material`, `colour` and the Bambu Studio `preset` name that fits. Pick the preset from `~/Library/Application Support/BambuStudio/system/BBL/filament/`; if no preset matches the brand, use the `Generic <type>` one and say so.
+- Use the printer for the Fillet bed check: the design's printer (`get_design`) must be the same model.
+- Compare with the Bambu project (`printer_settings_id`, `filament_settings_id`, `filament_colour` in `Metadata/project_settings.config`, and each object's `extruder` in `Metadata/model_settings.config`). If they differ from `layout.json`, do not edit the settings in the file: tell Alex exactly which printer, filament slot, preset and colour to set in Bambu Studio and to save. A material printed with the wrong profile gives bad fit (seen 2026-11-22: PETG sliced as PLA came out loose).
+
 ## Before starting
 
 - Fillet tools (`mcp__fillet__*`) must be connected and the design named in `layout.json` must be the current one (`list_designs`, `select_design`).

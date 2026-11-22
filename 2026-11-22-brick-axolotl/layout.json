@@ -2,6 +2,12 @@
   "design": "Brick axolotl",
   "source": "brick-axolotl.fillet",
   "project": "Brick axolotl.3mf",
+  "printer": "Bambu Lab A1 mini 0.4 nozzle",
+  "filaments": {
+    "plate1-white.3mf": {"material": "PLA+", "colour": "white", "preset": "Bambu PLA Basic @BBL A1M"},
+    "plate2-pink.3mf": {"material": "PETG matte", "colour": "pink", "preset": "Bambu PETG Matte @BBL A1M 0.4 nozzle"},
+    "plate3-black.3mf": {"material": "PETG+", "colour": "black", "preset": "Bambu PETG Basic @BBL A1M 0.4 nozzle"}
+  },
   "plates": {
     "plate1-white.3mf": ["Body", "Head"],
     "plate2-pink.3mf": ["Gills", "Tail", "Legs"],
