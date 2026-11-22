@@ -1,0 +1,18 @@
+{
+  "design": "Brick axolotl",
+  "source": "brick-axolotl.fillet",
+  "project": "Brick axolotl.3mf",
+  "plates": {
+    "plate1-white.3mf": ["Body", "Head"],
+    "plate2-pink.3mf": ["Gills", "Tail", "Legs"],
+    "plate3-black.3mf": ["Eyes"]
+  },
+  "moves": {
+    "Body": {"translate": [0, 0, -3.2]},
+    "Head": {"translate": [45, 24, -12.8]},
+    "Gills": {"translate": [0, 12, -22.4]},
+    "Tail": {"translate": [0, 20, -12.8]},
+    "Legs": {"translate": [60, 0, 0]},
+    "Eyes": {"rotate": {"axis": "x", "angle": 90, "center": [0, 0, 0]}, "translate": [0, 18.8, 40.7]}
+  }
+}
