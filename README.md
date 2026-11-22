@@ -2,39 +2,35 @@
 
 3D-print models designed with Claude Code in Fillet and printed through Bambu Studio.
 
-## What the `print-plates` skill does
+## The `print-model` skill
 
-After a design change it takes the model from Fillet to a ready Bambu Studio project:
+One guided path from a description to a finished print. Claude asks, designs, exports and keeps git in order; you decide, slice, print and report.
 
-1. Asks for printer and filament per colour, if not known yet.
-2. Lays every part flat and checks that it fits the printer.
-3. Exports one file per colour (one spool per plate, no AMS).
-4. Puts the new shapes into the Bambu Studio project. Plates, filaments and print settings stay as you saved them.
-5. Commits and pushes.
-6. Reopens Bambu Studio with the project: one window, same place as before.
-
-You slice, print and swap spools.
+| Phase | What happens | Your part |
+|---|---|---|
+| 0 Setup | Checks Fillet connection, file access, git | fix what it names |
+| 1 Brief | Asks what is missing: object, size, style, colours, printer, filament, how parts join | answer |
+| 2 Design | Builds the model in Fillet, shows renders | say "ok" or what to change |
+| 3 Record | Stores printer and filament per colour | nothing |
+| 4 Export | Lays parts flat, checks fit on the bed, exports one file per colour | nothing |
+| 5 Bambu project | First time: guides you click by click. Later: puts new shapes into your project | first time: set up and save |
+| 6 Save | Commits, pushes, reopens Bambu Studio in the same place | nothing |
+| 7 Print | Tells you which spool per plate and how to assemble; asks how each joint fits; tunes and repeats | slice, print, report fit |
 
 ## How to use it
 
-Start Claude Code in this folder, with Fillet running.
+Start Claude Code in this folder, with Fillet running. Then just say what you want, or type `/print-model`.
 
-**Change an existing model**
+- **New model**: "I want a phone stand for A1 mini, black PETG." Missing details get asked.
+- **Change a model**: "make the axolotl eyes bigger."
+- **After a print**: "pink parts are loose." The fit gets tuned and re-exported.
+- **Keep the result**: "save."
 
-1. Say what to change, e.g. "pink parts are loose" or "make the eyes bigger".
-2. Look at the result in Fillet. Say "ok".
-3. Type `/print-plates`, or say "save".
-4. In Bambu Studio: slice and print each plate.
-5. Report the fit. Repeat from 1 if needed.
-
-**Start a new model**
-
-1. Describe the model, the printer and the filament per colour. Anything missing gets asked.
-2. Approve the design in Fillet, then `/print-plates`.
-3. One time only, in Bambu Studio: import the plate files from the model folder, one plate per colour, set printer and filaments, save the project into the model folder.
-4. Say "saved". From now on the model works like an existing one.
+Claude stops and waits for you after the brief, after each design, before closing Bambu Studio with unsaved settings, and after sending you to print.
 
 ## What you find in a model folder
+
+Folders are named `YYYY-MM-DD-<name>`.
 
 | File | What |
 |---|---|
@@ -46,9 +42,9 @@ Start Claude Code in this folder, with Fillet running.
 ## Good to know
 
 - Change print settings and filaments in Bambu Studio and save there. Edits made to the project file by hand are dropped by Bambu Studio.
-- A new or removed part needs one manual import in Bambu Studio; the skill stops and says so.
-- The skill closes and reopens Bambu Studio. It stops first if Bambu Studio holds unsaved settings.
+- A new or removed part needs one manual import in Bambu Studio; the skill guides you.
+- The skill closes and reopens Bambu Studio, one window, same place. It stops first if Bambu Studio holds unsaved settings.
 - Terminal needs Full Disk Access (System Settings > Privacy & Security), otherwise Fillet's exports cannot be read.
-- Fit is tuned through design parameters. Axolotl: `pink_grip` for the pink parts, `eye_clr` for the eyes, `stud_d` and `clr` for all bricks.
+- A loose or tight fit is most often a wrong filament profile. Check that before changing the design.
 
-Skill files: `.claude/skills/print-plates/`.
+Skill files: `.claude/skills/print-model/`.
