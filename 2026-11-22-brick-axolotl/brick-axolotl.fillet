@@ -1,0 +1,2227 @@
+{
+  "bodyColors" : {
+    "51CDBA3C-9F72-4597-8109-F196E075E92C" : "#263238",
+    "58DBF7A8-58B7-4BF1-A273-8EC9952E7C83" : "#FF8FB8",
+    "6332924C-4B42-446F-BA01-74F1B795A524" : "#F5F5F5",
+    "6698676D-7954-4626-988D-EC7308C601DD" : "#FF8FB8",
+    "80354BA6-C2A0-487C-A611-27CE03D937DB" : "#F5F5F5",
+    "EC12270B-9CBD-4E5C-B479-F0D7BCC7D2F4" : "#FF8FB8"
+  },
+  "features" : [
+    {
+      "id" : "6332924C-4B42-446F-BA01-74F1B795A524",
+      "kind" : {
+        "dimensions" : [
+          "32 - 2*clr",
+          "64 - 2*clr",
+          "9.6"
+        ],
+        "kind" : "box",
+        "operation" : "newBody",
+        "plane" : {
+          "offset" : "0",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "0"
+        },
+        "targets" : [
+
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Body",
+      "suppressed" : false
+    },
+    {
+      "id" : "B7607EC8-FEC4-43E4-8960-6E4ACF82183C",
+      "kind" : {
+        "body" : "6332924C-4B42-446F-BA01-74F1B795A524",
+        "removeFaces" : [
+          {
+            "body" : "6332924C-4B42-446F-BA01-74F1B795A524",
+            "signature" : {
+              "area" : 2028.8399999999997,
+              "centroid" : {
+                "x" : 2.0122792321330965e-16,
+                "y" : -1.1116195315743705e-15,
+                "z" : 0
+              },
+              "extent" : {
+                "x" : 31.8,
+                "y" : 63.8,
+                "z" : 0
+              },
+              "normal" : {
+                "x" : -0,
+                "y" : -0,
+                "z" : -1
+              },
+              "surface" : "plane"
+            }
+          }
+        ],
+        "thickness" : "wall",
+        "type" : "shell"
+      },
+      "name" : "Body sockets",
+      "suppressed" : false
+    },
+    {
+      "id" : "20BD6A0A-F1BC-427D-8531-6B4ABF19E55E",
+      "kind" : {
+        "plane" : {
+          "offset" : "9.6",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "shapes" : [
+          {
+            "construction" : false,
+            "id" : "DD4CC737-5C99-4FCB-898E-B076FE0DE524",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "-28"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "F7BBEF78-CF11-42C3-BF41-320F33531EAB",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "-28"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "695F3342-0A57-4186-A734-2E1698D65B8E",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "-28"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "64BA8069-2AB1-4E4D-8005-A955BE68F5B8",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "-28"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "2714717B-F311-4C6D-BA24-91CE169A87FC",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "-20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "328BD936-645F-4D74-95B5-9BF728A642AE",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "-20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "9722CBFE-13FF-4DCE-8FB2-A276434AB172",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "-20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "CB641280-CE33-47B7-BAD8-1E3909FEE249",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "-20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "F93F3DDC-52D3-4BAE-9838-7E822DA75D92",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "-12"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "C9BA3F84-D885-4EBD-89BF-63EBC563F0D5",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "-12"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "16E5B791-CBC4-410A-B935-3CB001E88BAE",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "-12"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "81E34121-9DA0-41BF-A80C-1FD7C8C60E45",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "-12"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "D7D833BD-BEA3-4E52-9EA1-7FE085E0B2C2",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "-4"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "3D1B5C62-E9A6-4C80-A949-6FAE1A8D5671",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "-4"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "61885782-0771-4CA2-8BB6-DADB95F6DF1E",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "-4"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "C2634F98-FA61-48B2-AB2F-D413F3892B55",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "-4"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "71E21A34-2214-42C3-B205-84A2983E55C4",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "4"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "8F061563-0123-4F34-94F2-C4152F6189BD",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "4"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "B83D3D8E-76D4-41F5-9FEA-E1E36CB9122F",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "4"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "4A75156E-D8EE-4301-A5B7-709EC0EA8320",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "4"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "9563E339-D555-435A-94D6-02E26FE7939B",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "12"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "7C715B54-D697-40BE-8CB4-D79873B6CEF9",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "12"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "AF7B57B3-1400-42EE-84CA-E194D0B69018",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "12"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "06EA959A-F5D0-47C6-811C-A4638762754B",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "12"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "CE4A0C88-389C-46C8-AAB9-D619C46596F2",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "A592F00B-8F18-4398-9283-72DAA226E26A",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "83004B12-D047-466F-83A0-D1E4684F8979",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "01ED6CB4-843C-4D93-9175-7500540A0850",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "CCBC6069-931A-49D5-8AC8-D6271AC466EB",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "28"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "EA9DD799-8F21-4790-A554-1500296789F9",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "28"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "91C55433-3DF3-4D02-9D34-4B7E7DA5E6CF",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "28"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "3100D6E8-E96C-4916-918E-463338C57835",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "28"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          }
+        ],
+        "type" : "sketch"
+      },
+      "name" : "Body stud sketch",
+      "suppressed" : false
+    },
+    {
+      "id" : "5AAF3BFC-6D99-44A8-B6E3-FF7E4A2C4E8C",
+      "kind" : {
+        "distance" : "stud_h",
+        "operation" : "join",
+        "regions" : [
+          {
+            "x" : -12.1,
+            "y" : -28.099720379718118
+          },
+          {
+            "x" : -4.1,
+            "y" : -28.099720379718118
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : -28.099720379718118
+          },
+          {
+            "x" : 11.9,
+            "y" : -28.099720379718118
+          },
+          {
+            "x" : -12.1,
+            "y" : -20.099720379718118
+          },
+          {
+            "x" : -4.1,
+            "y" : -20.099720379718118
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : -20.099720379718118
+          },
+          {
+            "x" : 11.9,
+            "y" : -20.099720379718118
+          },
+          {
+            "x" : -12.1,
+            "y" : -12.099720379718118
+          },
+          {
+            "x" : -4.1,
+            "y" : -12.099720379718118
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : -12.099720379718118
+          },
+          {
+            "x" : 11.9,
+            "y" : -12.099720379718118
+          },
+          {
+            "x" : -12.1,
+            "y" : -4.099720379718118
+          },
+          {
+            "x" : -4.1,
+            "y" : -3.900279620281882
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : -3.900279620281882
+          },
+          {
+            "x" : 11.9,
+            "y" : -4.099720379718118
+          },
+          {
+            "x" : -11.9,
+            "y" : 3.900279620281882
+          },
+          {
+            "x" : -4.1,
+            "y" : 4.099720379718118
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : 4.099720379718118
+          },
+          {
+            "x" : 12.1,
+            "y" : 3.900279620281882
+          },
+          {
+            "x" : -12.1,
+            "y" : 11.900279620281882
+          },
+          {
+            "x" : -4.1,
+            "y" : 11.900279620281882
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : 11.900279620281882
+          },
+          {
+            "x" : 11.9,
+            "y" : 11.900279620281882
+          },
+          {
+            "x" : -12.1,
+            "y" : 19.900279620281882
+          },
+          {
+            "x" : -4.1,
+            "y" : 19.900279620281882
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : 19.900279620281882
+          },
+          {
+            "x" : 11.9,
+            "y" : 19.900279620281882
+          },
+          {
+            "x" : -12.1,
+            "y" : 27.900279620281882
+          },
+          {
+            "x" : -4.1,
+            "y" : 27.900279620281882
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : 27.900279620281882
+          },
+          {
+            "x" : 11.9,
+            "y" : 27.900279620281882
+          }
+        ],
+        "sketch" : "20BD6A0A-F1BC-427D-8531-6B4ABF19E55E",
+        "symmetric" : false,
+        "taper" : "0",
+        "targets" : [
+          "6332924C-4B42-446F-BA01-74F1B795A524"
+        ],
+        "type" : "extrude"
+      },
+      "name" : "Body studs",
+      "suppressed" : false
+    },
+    {
+      "id" : "52F0A9D7-A1DC-4C37-9EE9-E4EEB512A280",
+      "kind" : {
+        "dimensions" : [
+          "tube_od",
+          "9.6 - wall/2"
+        ],
+        "kind" : "cylinder",
+        "operation" : "newBody",
+        "plane" : {
+          "offset" : "0",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-8",
+          "y" : "-24"
+        },
+        "targets" : [
+
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Body tubes",
+      "suppressed" : false
+    },
+    {
+      "id" : "70307EC0-1C9B-4425-A01E-F65E7DD9954C",
+      "kind" : {
+        "dimensions" : [
+          "stud_d",
+          "9.6 - wall"
+        ],
+        "kind" : "cylinder",
+        "operation" : "cut",
+        "plane" : {
+          "offset" : "0",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-8",
+          "y" : "-24"
+        },
+        "targets" : [
+          "52F0A9D7-A1DC-4C37-9EE9-E4EEB512A280"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Body tube bore",
+      "suppressed" : false
+    },
+    {
+      "id" : "BC665C59-7AA2-4205-9BE5-1370E21E8208",
+      "kind" : {
+        "bodies" : [
+          "52F0A9D7-A1DC-4C37-9EE9-E4EEB512A280"
+        ],
+        "layout" : {
+          "count" : "3",
+          "direction" : {
+            "type" : "x"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "type" : "pattern"
+      },
+      "name" : "Body tubes across",
+      "suppressed" : false
+    },
+    {
+      "id" : "B2561A1F-8209-47C6-B31D-896AF6B8A058",
+      "kind" : {
+        "bodies" : [
+          "52F0A9D7-A1DC-4C37-9EE9-E4EEB512A280"
+        ],
+        "layout" : {
+          "count" : "7",
+          "direction" : {
+            "type" : "y"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "type" : "pattern"
+      },
+      "name" : "Body tubes along",
+      "suppressed" : false
+    },
+    {
+      "id" : "E3E3AD1A-6DD5-4FEE-BEEE-F301C9BEC170",
+      "kind" : {
+        "keepTools" : false,
+        "operation" : "join",
+        "target" : "6332924C-4B42-446F-BA01-74F1B795A524",
+        "tools" : [
+          "52F0A9D7-A1DC-4C37-9EE9-E4EEB512A280"
+        ],
+        "type" : "combine"
+      },
+      "name" : "Join body tubes",
+      "suppressed" : false
+    },
+    {
+      "id" : "80354BA6-C2A0-487C-A611-27CE03D937DB",
+      "kind" : {
+        "dimensions" : [
+          "32 - 2*clr",
+          "32 - 2*clr",
+          "9.6"
+        ],
+        "kind" : "box",
+        "operation" : "newBody",
+        "plane" : {
+          "offset" : "9.6",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "-24"
+        },
+        "targets" : [
+
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Head",
+      "suppressed" : false
+    },
+    {
+      "id" : "BF3263C1-2A7A-4D0D-B972-729C7744C233",
+      "kind" : {
+        "body" : "80354BA6-C2A0-487C-A611-27CE03D937DB",
+        "removeFaces" : [
+          {
+            "body" : "80354BA6-C2A0-487C-A611-27CE03D937DB",
+            "signature" : {
+              "area" : 1011.2399999999999,
+              "centroid" : {
+                "x" : 2.0122792321330965e-16,
+                "y" : -23.999999999999996,
+                "z" : 9.6
+              },
+              "extent" : {
+                "x" : 31.8,
+                "y" : 31.8,
+                "z" : 0
+              },
+              "normal" : {
+                "x" : -0,
+                "y" : -0,
+                "z" : -1
+              },
+              "surface" : "plane"
+            }
+          }
+        ],
+        "thickness" : "wall",
+        "type" : "shell"
+      },
+      "name" : "Head sockets",
+      "suppressed" : false
+    },
+    {
+      "id" : "291DAB09-C287-4BA6-8720-17FA84C30ECA",
+      "kind" : {
+        "dimensions" : [
+          "stud_d",
+          "stud_h"
+        ],
+        "kind" : "cylinder",
+        "operation" : "newBody",
+        "plane" : {
+          "offset" : "19.2",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-12",
+          "y" : "-36"
+        },
+        "targets" : [
+
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Head studs",
+      "suppressed" : false
+    },
+    {
+      "id" : "3A7670DD-487A-48E8-AA08-C750BFB1D064",
+      "kind" : {
+        "bodies" : [
+          "291DAB09-C287-4BA6-8720-17FA84C30ECA"
+        ],
+        "layout" : {
+          "count" : "4",
+          "direction" : {
+            "type" : "x"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "type" : "pattern"
+      },
+      "name" : "Head studs across",
+      "suppressed" : false
+    },
+    {
+      "id" : "5D9F98E9-DA3C-46DA-9444-3EEBB5DDCF2E",
+      "kind" : {
+        "bodies" : [
+          "291DAB09-C287-4BA6-8720-17FA84C30ECA"
+        ],
+        "layout" : {
+          "count" : "4",
+          "direction" : {
+            "type" : "y"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "type" : "pattern"
+      },
+      "name" : "Head studs along",
+      "suppressed" : false
+    },
+    {
+      "id" : "C4854DC5-D9C8-4E35-B73B-5B87FE2B98DC",
+      "kind" : {
+        "dimensions" : [
+          "tube_od",
+          "9.6 - wall/2"
+        ],
+        "kind" : "cylinder",
+        "operation" : "newBody",
+        "plane" : {
+          "offset" : "9.6",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-8",
+          "y" : "-32"
+        },
+        "targets" : [
+
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Head tubes",
+      "suppressed" : false
+    },
+    {
+      "id" : "E79D59EB-A426-4041-952F-44621E1038F5",
+      "kind" : {
+        "dimensions" : [
+          "stud_d",
+          "9.6 - wall"
+        ],
+        "kind" : "cylinder",
+        "operation" : "cut",
+        "plane" : {
+          "offset" : "9.6",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-8",
+          "y" : "-32"
+        },
+        "targets" : [
+          "C4854DC5-D9C8-4E35-B73B-5B87FE2B98DC"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Head tube bore",
+      "suppressed" : false
+    },
+    {
+      "id" : "4B3CD388-BF9B-409E-99BC-041114999056",
+      "kind" : {
+        "bodies" : [
+          "C4854DC5-D9C8-4E35-B73B-5B87FE2B98DC"
+        ],
+        "layout" : {
+          "count" : "3",
+          "direction" : {
+            "type" : "x"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "type" : "pattern"
+      },
+      "name" : "Head tubes across",
+      "suppressed" : false
+    },
+    {
+      "id" : "2FBBCE0E-A5BE-43BF-8929-5C004EE4BC36",
+      "kind" : {
+        "bodies" : [
+          "C4854DC5-D9C8-4E35-B73B-5B87FE2B98DC"
+        ],
+        "layout" : {
+          "count" : "3",
+          "direction" : {
+            "type" : "y"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "type" : "pattern"
+      },
+      "name" : "Head tubes along",
+      "suppressed" : false
+    },
+    {
+      "id" : "794E3D72-1EA6-4FCF-B994-1835D93161E9",
+      "kind" : {
+        "keepTools" : false,
+        "operation" : "join",
+        "target" : "80354BA6-C2A0-487C-A611-27CE03D937DB",
+        "tools" : [
+          "291DAB09-C287-4BA6-8720-17FA84C30ECA",
+          "C4854DC5-D9C8-4E35-B73B-5B87FE2B98DC"
+        ],
+        "type" : "combine"
+      },
+      "name" : "Join head parts",
+      "suppressed" : false
+    },
+    {
+      "id" : "6B8780B4-19F9-41E2-AEF4-B25C64246DFE",
+      "kind" : {
+        "plane" : {
+          "offset" : "39.9",
+          "plane" : "xz",
+          "type" : "standard"
+        },
+        "shapes" : [
+          {
+            "construction" : false,
+            "id" : "B09AAAC6-FD3E-4C53-8219-12ADCBB66A3B",
+            "kind" : {
+              "closed" : true,
+              "type" : "polyline",
+              "vertices" : [
+                {
+                  "bulge" : "-1.5",
+                  "x" : "-6",
+                  "y" : "13.2"
+                },
+                {
+                  "x" : "6",
+                  "y" : "13.2"
+                },
+                {
+                  "bulge" : "1.5",
+                  "x" : "6",
+                  "y" : "12.4"
+                },
+                {
+                  "x" : "-6",
+                  "y" : "12.4"
+                }
+              ]
+            }
+          }
+        ],
+        "type" : "sketch"
+      },
+      "name" : "Smile sketch",
+      "suppressed" : false
+    },
+    {
+      "id" : "6E9846B6-7887-48A6-A28B-3DB53363B713",
+      "kind" : {
+        "distance" : "-0.6",
+        "operation" : "cut",
+        "regions" : [
+          {
+            "x" : -0.75,
+            "y" : 11.33125
+          }
+        ],
+        "sketch" : "6B8780B4-19F9-41E2-AEF4-B25C64246DFE",
+        "symmetric" : false,
+        "taper" : "0",
+        "targets" : [
+          "80354BA6-C2A0-487C-A611-27CE03D937DB"
+        ],
+        "type" : "extrude"
+      },
+      "name" : "Smile",
+      "suppressed" : false
+    },
+    {
+      "id" : "15D31AD4-A05C-4E01-A341-F232FF51E833",
+      "kind" : {
+        "plane" : {
+          "offset" : "19.2",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "shapes" : [
+          {
+            "construction" : false,
+            "id" : "CAA74D35-A19D-4194-89DD-8D1F114DBC12",
+            "kind" : {
+              "anchor" : "center",
+              "angle" : "0",
+              "height" : "8 - 2*clr",
+              "position" : {
+                "x" : "0",
+                "y" : "-12"
+              },
+              "type" : "rectangle",
+              "width" : "32 - 2*clr"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "A33C106C-06CD-47DA-BC33-129C03D6CB64",
+            "kind" : {
+              "a" : {
+                "x" : "14",
+                "y" : "-12"
+              },
+              "b" : {
+                "x" : "29",
+                "y" : "-12"
+              },
+              "type" : "slot",
+              "width" : "4"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "AD27A3D4-E6BC-48A7-9326-4C5C1F1E229F",
+            "kind" : {
+              "a" : {
+                "x" : "14",
+                "y" : "-11"
+              },
+              "b" : {
+                "x" : "27",
+                "y" : "-2"
+              },
+              "type" : "slot",
+              "width" : "4"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "BA19C883-0F14-4975-BAFE-B819D5DF643B",
+            "kind" : {
+              "a" : {
+                "x" : "14",
+                "y" : "-13"
+              },
+              "b" : {
+                "x" : "27",
+                "y" : "-22"
+              },
+              "type" : "slot",
+              "width" : "4"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "1ABDAF82-DE7A-4757-8DE0-CAA2779D44E8",
+            "kind" : {
+              "a" : {
+                "x" : "-14",
+                "y" : "-12"
+              },
+              "b" : {
+                "x" : "-29",
+                "y" : "-12"
+              },
+              "type" : "slot",
+              "width" : "4"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "4EDEB033-0740-44D5-A6D2-9285DA9DC4F5",
+            "kind" : {
+              "a" : {
+                "x" : "-14",
+                "y" : "-11"
+              },
+              "b" : {
+                "x" : "-27",
+                "y" : "-2"
+              },
+              "type" : "slot",
+              "width" : "4"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "DC19B386-3E9F-4CF3-80C3-6C5B8F7E8AF3",
+            "kind" : {
+              "a" : {
+                "x" : "-14",
+                "y" : "-13"
+              },
+              "b" : {
+                "x" : "-27",
+                "y" : "-22"
+              },
+              "type" : "slot",
+              "width" : "4"
+            }
+          }
+        ],
+        "type" : "sketch"
+      },
+      "name" : "Gills sketch",
+      "suppressed" : false
+    },
+    {
+      "id" : "6698676D-7954-4626-988D-EC7308C601DD",
+      "kind" : {
+        "distance" : "3.2",
+        "operation" : "newBody",
+        "regions" : [
+          {
+            "x" : -15.006324011275717,
+            "y" : -14.979166666666686
+          },
+          {
+            "x" : -18.553049973280757,
+            "y" : -16.29012864399544
+          },
+          {
+            "x" : -7.949092148972737,
+            "y" : -11.837500000000002
+          },
+          {
+            "x" : -16.600811441246577,
+            "y" : -13.291666666666666
+          },
+          {
+            "x" : -15.180657811293052,
+            "y" : -13.37499999999999
+          },
+          {
+            "x" : 15.006324011275717,
+            "y" : -14.979166666666679
+          },
+          {
+            "x" : 18.553049973280753,
+            "y" : -16.29012864399544
+          },
+          {
+            "x" : -15.959924079232925,
+            "y" : -11.995119305763835
+          },
+          {
+            "x" : -14.008306871057867,
+            "y" : -11.958371144676532
+          },
+          {
+            "x" : -28.81013561411146,
+            "y" : -12.083333333333334
+          },
+          {
+            "x" : -12.117227771688622,
+            "y" : -12.020833333333346
+          },
+          {
+            "x" : -16.600811441246577,
+            "y" : -10.708333333333334
+          },
+          {
+            "x" : -15.180657811293052,
+            "y" : -10.624999999999993
+          },
+          {
+            "x" : 15.180657811293052,
+            "y" : -13.375000000000007
+          },
+          {
+            "x" : 16.600811441246577,
+            "y" : -13.291666666666666
+          },
+          {
+            "x" : 12.117227771688622,
+            "y" : -11.979166666666654
+          },
+          {
+            "x" : -15.006324011275717,
+            "y" : -9.020833333333323
+          },
+          {
+            "x" : -18.55304997328075,
+            "y" : -7.709871356004559
+          },
+          {
+            "x" : 14.008306871057867,
+            "y" : -12.041628855323468
+          },
+          {
+            "x" : 15.959924079232929,
+            "y" : -12.004880694236165
+          },
+          {
+            "x" : 20.109007077772866,
+            "y" : -12.083333333333334
+          },
+          {
+            "x" : 15.006324011275717,
+            "y" : -9.020833333333316
+          },
+          {
+            "x" : 15.180657811293052,
+            "y" : -10.62500000000001
+          },
+          {
+            "x" : 16.600811441246577,
+            "y" : -10.708333333333334
+          },
+          {
+            "x" : 18.55304997328075,
+            "y" : -7.709871356004559
+          }
+        ],
+        "sketch" : "15D31AD4-A05C-4E01-A341-F232FF51E833",
+        "symmetric" : false,
+        "taper" : "0",
+        "targets" : [
+
+        ],
+        "type" : "extrude"
+      },
+      "name" : "Gills",
+      "suppressed" : false
+    },
+    {
+      "id" : "49F16909-E942-444F-B18D-926FBC010A22",
+      "kind" : {
+        "dimensions" : [
+          "32 - 2*clr - 2*wall",
+          "8 - 2*clr - 2*wall",
+          "2"
+        ],
+        "kind" : "box",
+        "operation" : "cut",
+        "plane" : {
+          "offset" : "19.2",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "-12"
+        },
+        "targets" : [
+          "6698676D-7954-4626-988D-EC7308C601DD"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Gills socket",
+      "suppressed" : false
+    },
+    {
+      "id" : "C0D9199D-3166-4A4C-9875-7590F974C1A8",
+      "kind" : {
+        "dimensions" : [
+          "stud_d",
+          "stud_h"
+        ],
+        "kind" : "cylinder",
+        "operation" : "join",
+        "plane" : {
+          "offset" : "22.4",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-12",
+          "y" : "-12"
+        },
+        "targets" : [
+          "6698676D-7954-4626-988D-EC7308C601DD"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Gills stud",
+      "suppressed" : false
+    },
+    {
+      "id" : "4D44A97A-F540-4ACD-A478-C46840B44519",
+      "kind" : {
+        "bodies" : [
+
+        ],
+        "features" : [
+          "C0D9199D-3166-4A4C-9875-7590F974C1A8"
+        ],
+        "layout" : {
+          "count" : "4",
+          "direction" : {
+            "type" : "x"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "objects" : "features",
+        "type" : "pattern"
+      },
+      "name" : "Gills studs",
+      "suppressed" : false
+    },
+    {
+      "id" : "EC12270B-9CBD-4E5C-B479-F0D7BCC7D2F4",
+      "kind" : {
+        "dimensions" : [
+          "16 - 2*clr",
+          "32 - 2*clr",
+          "3.2"
+        ],
+        "kind" : "box",
+        "operation" : "newBody",
+        "plane" : {
+          "offset" : "9.6",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "16"
+        },
+        "targets" : [
+
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Tail",
+      "suppressed" : false
+    },
+    {
+      "id" : "B16A5B6F-A660-47E1-9DFC-2578E9E8444F",
+      "kind" : {
+        "dimensions" : [
+          "16 - 2*clr - 2*wall",
+          "32 - 2*clr - 2*wall",
+          "2"
+        ],
+        "kind" : "box",
+        "operation" : "cut",
+        "plane" : {
+          "offset" : "9.6",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "16"
+        },
+        "targets" : [
+          "EC12270B-9CBD-4E5C-B479-F0D7BCC7D2F4"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Tail socket",
+      "suppressed" : false
+    },
+    {
+      "id" : "8B71B8FD-625B-4613-810A-F013F4A7853A",
+      "kind" : {
+        "dimensions" : [
+          "tube_od",
+          "2.5"
+        ],
+        "kind" : "cylinder",
+        "operation" : "join",
+        "plane" : {
+          "offset" : "9.6",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "8"
+        },
+        "targets" : [
+          "EC12270B-9CBD-4E5C-B479-F0D7BCC7D2F4"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Tail tube",
+      "suppressed" : false
+    },
+    {
+      "id" : "07A3C4B5-3571-4140-8A6C-F806F569B598",
+      "kind" : {
+        "dimensions" : [
+          "stud_d",
+          "2"
+        ],
+        "kind" : "cylinder",
+        "operation" : "cut",
+        "plane" : {
+          "offset" : "9.6",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "8"
+        },
+        "targets" : [
+          "EC12270B-9CBD-4E5C-B479-F0D7BCC7D2F4"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Tail tube bore",
+      "suppressed" : false
+    },
+    {
+      "id" : "DCAB7E77-9637-463B-98D2-1C971B6CBB8D",
+      "kind" : {
+        "bodies" : [
+
+        ],
+        "features" : [
+          "8B71B8FD-625B-4613-810A-F013F4A7853A",
+          "07A3C4B5-3571-4140-8A6C-F806F569B598"
+        ],
+        "layout" : {
+          "count" : "3",
+          "direction" : {
+            "type" : "y"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "objects" : "features",
+        "type" : "pattern"
+      },
+      "name" : "Tail tubes",
+      "suppressed" : false
+    },
+    {
+      "id" : "A0E94CB3-FC8D-4B48-997E-019CF14492C6",
+      "kind" : {
+        "dimensions" : [
+          "stud_d",
+          "stud_h"
+        ],
+        "kind" : "cylinder",
+        "operation" : "newBody",
+        "plane" : {
+          "offset" : "12.8",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-4",
+          "y" : "4"
+        },
+        "targets" : [
+
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Tail studs",
+      "suppressed" : false
+    },
+    {
+      "id" : "A0BF29BC-BC91-4E20-A9AD-15F941838F38",
+      "kind" : {
+        "bodies" : [
+          "A0E94CB3-FC8D-4B48-997E-019CF14492C6"
+        ],
+        "layout" : {
+          "count" : "2",
+          "direction" : {
+            "type" : "x"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "type" : "pattern"
+      },
+      "name" : "Tail studs across",
+      "suppressed" : false
+    },
+    {
+      "id" : "BF42BAD9-F6C5-4CC5-B011-2934EF53B02D",
+      "kind" : {
+        "bodies" : [
+          "A0E94CB3-FC8D-4B48-997E-019CF14492C6"
+        ],
+        "layout" : {
+          "count" : "4",
+          "direction" : {
+            "type" : "y"
+          },
+          "spacing" : "8",
+          "type" : "linear"
+        },
+        "type" : "pattern"
+      },
+      "name" : "Tail studs along",
+      "suppressed" : false
+    },
+    {
+      "id" : "522834A8-3AA9-4CBC-8270-5A8338CBC5D8",
+      "kind" : {
+        "keepTools" : false,
+        "operation" : "join",
+        "target" : "EC12270B-9CBD-4E5C-B479-F0D7BCC7D2F4",
+        "tools" : [
+          "A0E94CB3-FC8D-4B48-997E-019CF14492C6"
+        ],
+        "type" : "combine"
+      },
+      "name" : "Join tail studs",
+      "suppressed" : false
+    },
+    {
+      "id" : "48FC759E-D9BC-497A-8AF6-B7656A741F24",
+      "kind" : {
+        "plane" : {
+          "offset" : "0",
+          "plane" : "yz",
+          "type" : "standard"
+        },
+        "shapes" : [
+          {
+            "construction" : false,
+            "id" : "9CA5E657-32FB-49BF-BDE8-9D8DA066A31E",
+            "kind" : {
+              "closed" : true,
+              "type" : "polyline",
+              "vertices" : [
+                {
+                  "x" : "1",
+                  "y" : "12.8"
+                },
+                {
+                  "x" : "31.5",
+                  "y" : "12.8"
+                },
+                {
+                  "x" : "31.5",
+                  "y" : "9.6"
+                },
+                {
+                  "x" : "50",
+                  "y" : "9.6"
+                },
+                {
+                  "x" : "50",
+                  "y" : "12"
+                },
+                {
+                  "x" : "44",
+                  "y" : "17.5"
+                },
+                {
+                  "x" : "30",
+                  "y" : "20"
+                },
+                {
+                  "x" : "8",
+                  "y" : "18"
+                }
+              ]
+            }
+          }
+        ],
+        "type" : "sketch"
+      },
+      "name" : "Fin sketch",
+      "suppressed" : false
+    },
+    {
+      "id" : "CA88906F-F6CA-4713-BD5E-42C823FD80DA",
+      "kind" : {
+        "distance" : "2.4",
+        "operation" : "join",
+        "regions" : [
+          {
+            "x" : 36.729166666666664,
+            "y" : 14.149999999999999
+          }
+        ],
+        "sketch" : "48FC759E-D9BC-497A-8AF6-B7656A741F24",
+        "symmetric" : true,
+        "taper" : "0",
+        "targets" : [
+          "EC12270B-9CBD-4E5C-B479-F0D7BCC7D2F4"
+        ],
+        "type" : "extrude"
+      },
+      "name" : "Fin",
+      "suppressed" : false
+    },
+    {
+      "id" : "CBDBC79A-8116-453A-805F-8BBDEEBB9475",
+      "kind" : {
+        "anchor" : "world",
+        "centers" : [
+          {
+            "x" : "-9",
+            "y" : "15.6"
+          },
+          {
+            "x" : "9",
+            "y" : "15.6"
+          }
+        ],
+        "counterboreDepth" : "3",
+        "counterboreDiameter" : "9",
+        "countersinkAngle" : "90",
+        "countersinkDiameter" : "10",
+        "depth" : "wall + 0.5",
+        "diameter" : "4",
+        "extent" : "distance",
+        "face" : {
+          "body" : "80354BA6-C2A0-487C-A611-27CE03D937DB",
+          "signature" : {
+            "area" : 295.67999999999995,
+            "centroid" : {
+              "x" : -1.4100652563629648e-15,
+              "y" : -39.9,
+              "z" : 14.484817878379657
+            },
+            "extent" : {
+              "x" : 31.8,
+              "y" : 0,
+              "z" : 9.6
+            },
+            "normal" : {
+              "x" : -0,
+              "y" : -1,
+              "z" : -0
+            },
+            "surface" : "plane"
+          }
+        },
+        "holeType" : "simple",
+        "tipAngle" : "0",
+        "type" : "hole"
+      },
+      "name" : "Eye sockets",
+      "suppressed" : false
+    },
+    {
+      "id" : "51CDBA3C-9F72-4597-8109-F196E075E92C",
+      "kind" : {
+        "dimensions" : [
+          "5.5",
+          "0.8"
+        ],
+        "kind" : "cylinder",
+        "operation" : "newBody",
+        "plane" : {
+          "offset" : "39.9",
+          "plane" : "xz",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "9",
+          "y" : "15.6"
+        },
+        "targets" : [
+
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Eyes",
+      "suppressed" : false
+    },
+    {
+      "id" : "B9042A5B-1F9E-4F59-A3C9-A3D570CF1AD3",
+      "kind" : {
+        "dimensions" : [
+          "5.5",
+          "0.8"
+        ],
+        "kind" : "cylinder",
+        "operation" : "join",
+        "plane" : {
+          "offset" : "39.9",
+          "plane" : "xz",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-9",
+          "y" : "15.6"
+        },
+        "targets" : [
+          "51CDBA3C-9F72-4597-8109-F196E075E92C"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Eye cap right",
+      "suppressed" : false
+    },
+    {
+      "id" : "818B4E60-43B1-4FAB-93CC-4FF889736B35",
+      "kind" : {
+        "dimensions" : [
+          "4 - 2*eye_clr",
+          "3"
+        ],
+        "kind" : "cylinder",
+        "operation" : "join",
+        "plane" : {
+          "offset" : "36.9",
+          "plane" : "xz",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "9",
+          "y" : "15.6"
+        },
+        "targets" : [
+          "51CDBA3C-9F72-4597-8109-F196E075E92C"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Eye stem left",
+      "suppressed" : false
+    },
+    {
+      "id" : "03A24E9E-C305-4544-9004-01F6AAD4740F",
+      "kind" : {
+        "dimensions" : [
+          "4 - 2*eye_clr",
+          "3"
+        ],
+        "kind" : "cylinder",
+        "operation" : "join",
+        "plane" : {
+          "offset" : "36.9",
+          "plane" : "xz",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "-9",
+          "y" : "15.6"
+        },
+        "targets" : [
+          "51CDBA3C-9F72-4597-8109-F196E075E92C"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Eye stem right",
+      "suppressed" : false
+    },
+    {
+      "id" : "E8474BF3-ECD9-470A-9417-E97C4F18C1C1",
+      "kind" : {
+        "plane" : {
+          "offset" : "-3.2",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "shapes" : [
+          {
+            "construction" : false,
+            "id" : "168795BB-078B-41B3-9E42-1C911D8F99FE",
+            "kind" : {
+              "anchor" : "center",
+              "angle" : "0",
+              "height" : "8 - 2*clr",
+              "position" : {
+                "x" : "0",
+                "y" : "-20"
+              },
+              "type" : "rectangle",
+              "width" : "32 - 2*clr"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "59203896-E331-4425-B816-F1B4EFEDA9C5",
+            "kind" : {
+              "a" : {
+                "x" : "17",
+                "y" : "-20"
+              },
+              "b" : {
+                "x" : "22",
+                "y" : "-22"
+              },
+              "type" : "slot",
+              "width" : "6"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "1027ED67-EA4B-4890-A807-CC93EBBF0AC5",
+            "kind" : {
+              "a" : {
+                "x" : "-17",
+                "y" : "-20"
+              },
+              "b" : {
+                "x" : "-22",
+                "y" : "-22"
+              },
+              "type" : "slot",
+              "width" : "6"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "F5714BE6-F7E5-4574-902E-51720843840A",
+            "kind" : {
+              "anchor" : "center",
+              "angle" : "0",
+              "height" : "8 - 2*clr",
+              "position" : {
+                "x" : "0",
+                "y" : "20"
+              },
+              "type" : "rectangle",
+              "width" : "32 - 2*clr"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "2C4A845E-886E-4622-BA70-E8EFA93786F4",
+            "kind" : {
+              "a" : {
+                "x" : "17",
+                "y" : "20"
+              },
+              "b" : {
+                "x" : "22",
+                "y" : "22"
+              },
+              "type" : "slot",
+              "width" : "6"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "CD487B2A-8E63-4B19-AC51-CBFC8E7F6B21",
+            "kind" : {
+              "a" : {
+                "x" : "-17",
+                "y" : "20"
+              },
+              "b" : {
+                "x" : "-22",
+                "y" : "22"
+              },
+              "type" : "slot",
+              "width" : "6"
+            }
+          }
+        ],
+        "type" : "sketch"
+      },
+      "name" : "Legs sketch",
+      "suppressed" : false
+    },
+    {
+      "id" : "58DBF7A8-58B7-4BF1-A273-8EC9952E7C83",
+      "kind" : {
+        "distance" : "3.2",
+        "operation" : "newBody",
+        "regions" : [
+          {
+            "x" : -4.677387742721212,
+            "y" : -20.140955623886924
+          },
+          {
+            "x" : -19.122391565729277,
+            "y" : -20.836790219451622
+          },
+          {
+            "x" : -14.989587975475144,
+            "y" : -20.3489056204245
+          },
+          {
+            "x" : 14.989587975475144,
+            "y" : -20.3489056204245
+          },
+          {
+            "x" : 19.122391565729277,
+            "y" : -20.836790219451622
+          },
+          {
+            "x" : -4.677387742721212,
+            "y" : 20.14095562388692
+          },
+          {
+            "x" : -19.122391565729277,
+            "y" : 20.836790219451622
+          },
+          {
+            "x" : -14.989587975475144,
+            "y" : 19.651136116465583
+          },
+          {
+            "x" : 14.989587975475144,
+            "y" : 19.651136116465583
+          },
+          {
+            "x" : 19.122391565729277,
+            "y" : 20.836790219451622
+          }
+        ],
+        "sketch" : "E8474BF3-ECD9-470A-9417-E97C4F18C1C1",
+        "symmetric" : false,
+        "taper" : "0",
+        "targets" : [
+
+        ],
+        "type" : "extrude"
+      },
+      "name" : "Legs",
+      "suppressed" : false
+    },
+    {
+      "id" : "D1BB524A-BAA9-471E-B466-D9BEEC468A01",
+      "kind" : {
+        "dimensions" : [
+          "32 - 2*clr - 2*wall",
+          "8 - 2*clr - 2*wall",
+          "2"
+        ],
+        "kind" : "box",
+        "operation" : "cut",
+        "plane" : {
+          "offset" : "-3.2",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "-20"
+        },
+        "targets" : [
+          "58DBF7A8-58B7-4BF1-A273-8EC9952E7C83"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Front legs socket",
+      "suppressed" : false
+    },
+    {
+      "id" : "FF1D68FE-AB64-447D-A759-30CF38D2BE3F",
+      "kind" : {
+        "dimensions" : [
+          "32 - 2*clr - 2*wall",
+          "8 - 2*clr - 2*wall",
+          "2"
+        ],
+        "kind" : "box",
+        "operation" : "cut",
+        "plane" : {
+          "offset" : "-3.2",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "position" : {
+          "x" : "0",
+          "y" : "20"
+        },
+        "targets" : [
+          "58DBF7A8-58B7-4BF1-A273-8EC9952E7C83"
+        ],
+        "type" : "primitive"
+      },
+      "name" : "Rear legs socket",
+      "suppressed" : false
+    },
+    {
+      "id" : "F5545008-1B1D-44CC-8CCC-E28CE4C5D62A",
+      "kind" : {
+        "plane" : {
+          "offset" : "0",
+          "plane" : "xy",
+          "type" : "standard"
+        },
+        "shapes" : [
+          {
+            "construction" : false,
+            "id" : "A0CD1BBF-DF6A-4E16-9A70-B4165CD08222",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "-20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "5BC36FA4-CD13-45A5-9A19-C1C7200C15E3",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "-20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "D98C1BCC-1594-45CC-B23C-83AAA34FE782",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "-20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "DFCD6FFA-5777-44FC-B270-654C87B3D14B",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "-20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "3A5FC7EA-6543-431B-B33A-A262A3A0CBA8",
+            "kind" : {
+              "center" : {
+                "x" : "-12",
+                "y" : "20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "75683EAD-3BDB-4897-8206-25F73674B51F",
+            "kind" : {
+              "center" : {
+                "x" : "-4",
+                "y" : "20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "AE899478-5CE1-4D98-9F6F-BE4308D6A5E4",
+            "kind" : {
+              "center" : {
+                "x" : "4",
+                "y" : "20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          },
+          {
+            "construction" : false,
+            "id" : "F40B96C5-2169-4DD6-BC1C-53162ACA1DD0",
+            "kind" : {
+              "center" : {
+                "x" : "12",
+                "y" : "20"
+              },
+              "diameter" : "stud_d",
+              "type" : "circle"
+            }
+          }
+        ],
+        "type" : "sketch"
+      },
+      "name" : "Legs stud sketch",
+      "suppressed" : false
+    },
+    {
+      "id" : "DB68E722-DB65-46B2-87E9-678CBB905862",
+      "kind" : {
+        "distance" : "stud_h",
+        "operation" : "join",
+        "regions" : [
+          {
+            "x" : -12.1,
+            "y" : -20.099720379718118
+          },
+          {
+            "x" : -4.1,
+            "y" : -20.099720379718118
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : -20.099720379718118
+          },
+          {
+            "x" : 11.9,
+            "y" : -20.099720379718118
+          },
+          {
+            "x" : -12.1,
+            "y" : 19.900279620281882
+          },
+          {
+            "x" : -4.1,
+            "y" : 19.900279620281882
+          },
+          {
+            "x" : 3.9000000000000004,
+            "y" : 19.900279620281882
+          },
+          {
+            "x" : 11.9,
+            "y" : 19.900279620281882
+          }
+        ],
+        "sketch" : "F5545008-1B1D-44CC-8CCC-E28CE4C5D62A",
+        "symmetric" : false,
+        "taper" : "0",
+        "targets" : [
+          "58DBF7A8-58B7-4BF1-A273-8EC9952E7C83"
+        ],
+        "type" : "extrude"
+      },
+      "name" : "Legs studs",
+      "suppressed" : false
+    },
+    {
+      "id" : "42EBED05-2629-4EE5-A89A-184F8AB428AE",
+      "kind" : {
+        "bodies" : [
+          "6332924C-4B42-446F-BA01-74F1B795A524",
+          "80354BA6-C2A0-487C-A611-27CE03D937DB",
+          "6698676D-7954-4626-988D-EC7308C601DD",
+          "EC12270B-9CBD-4E5C-B479-F0D7BCC7D2F4",
+          "51CDBA3C-9F72-4597-8109-F196E075E92C",
+          "58DBF7A8-58B7-4BF1-A273-8EC9952E7C83"
+        ],
+        "rotationAngle" : "0",
+        "rotationAxis" : {
+          "type" : "z"
+        },
+        "translation" : {
+          "x" : "0",
+          "y" : "0",
+          "z" : "3.2"
+        },
+        "type" : "move"
+      },
+      "name" : "Lift onto legs",
+      "suppressed" : false
+    }
+  ],
+  "formatVersion" : 1,
+  "name" : "Brick axolotl",
+  "parameters" : [
+    {
+      "comment" : "Stud diameter; raise for tighter fit",
+      "expression" : "4.8",
+      "id" : "6D775EDE-C026-4B8A-8461-DBDDBBF1016F",
+      "name" : "stud_d"
+    },
+    {
+      "comment" : "Stud height",
+      "expression" : "1.7",
+      "id" : "EE94FE4C-4E8D-4230-B644-2F59D2FA436C",
+      "name" : "stud_h"
+    },
+    {
+      "comment" : "Brick wall thickness; raise for tighter socket",
+      "expression" : "1.5",
+      "id" : "1AF88521-60D6-485F-9BDA-49E7D135C19E",
+      "name" : "wall"
+    },
+    {
+      "comment" : "Underside tube outer diameter",
+      "expression" : "6.5",
+      "id" : "1C38DDA8-7E9F-4460-9EDF-A7FD8CC37B05",
+      "name" : "tube_od"
+    },
+    {
+      "comment" : "Gap per side between neighbouring bricks",
+      "expression" : "0.1",
+      "id" : "4555BE50-4F65-438A-983B-D8F842D257FE",
+      "name" : "clr"
+    },
+    {
+      "comment" : "Gap per side between eye plug stem and its hole; lower for tighter press fit",
+      "expression" : "0.1",
+      "id" : "B7B5C885-F9BA-49FE-ACFF-BF0DB229E835",
+      "name" : "eye_clr"
+    }
+  ],
+  "printer" : "bambu-a1-mini",
+  "units" : "mm"
+}
