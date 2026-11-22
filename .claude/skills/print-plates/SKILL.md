@@ -33,21 +33,27 @@ Each model has its own folder in the repo with:
    ```
    python3 -I .claude/skills/print-plates/build_bambu_project.py "<model>/<project>" "<model>" "<scratchpad>/project-out.3mf"
    ```
-   It swaps the shapes of each part by the source file recorded in the project and keeps plates, positions, filaments and settings. Read its report: parts on unchanged plates must show the same face count and a bounds change of 0; changed parts must show what is expected. Then copy the output over the project file.
-8. **Commit and push** on the current branch: one Conventional Commits message, multiline, no co-author line. After pushing, verify with `git fetch origin && git merge-base --is-ancestor HEAD origin/<branch>`.
-9. **Reopen Bambu Studio.**
+   It swaps the shapes of each part by the source file recorded in the project and keeps plates, positions, filaments and settings. Read its report: parts on unchanged plates must show the same face count and a bounds change of 0; changed parts must show what is expected. Last line is `PROJECT CHANGED: <file>` or `PROJECT UNCHANGED`. Do not copy yet.
+8. **Unsaved check**, only if the project changed and Bambu Studio is running:
+   ```
+   python3 -I .claude/skills/print-plates/bambu_unsaved.py "<model>/<project>"
+   ```
+   It compares the settings Bambu Studio holds right now with the saved project. If it lists differences, stop and show them to Alex: closing Bambu Studio would lose them. Otherwise copy the build output over the project file.
+9. **Commit and push** on the current branch: one Conventional Commits message, multiline, no co-author line. After pushing, verify with `git fetch origin && git merge-base --is-ancestor HEAD origin/<branch>`. If `git status` shows nothing, there is nothing to commit: say so and skip step 10.
+10. **Reopen Bambu Studio**, only if the project file changed.
    ```
    .claude/skills/print-plates/reopen_bambu.sh "<model>/<project>"
    ```
    It records the window position, quits Bambu Studio, writes that position into Bambu Studio's settings, opens the project and checks that one window sits in the same place. If Bambu Studio is not running it just opens the project.
-10. **Report**: what changed per part, commit id, window position before and after, and what was not verified. I cannot see inside Bambu Studio, so ask Alex to confirm plates and to slice.
+11. **Report**: what changed per part, commit id, window position before and after, and what was not verified. I cannot see inside Bambu Studio, so ask Alex to confirm plates and to slice.
 
 ## Bambu Studio rules
 
 - Never run `open` on Bambu Studio while an instance is running, with or without `-n`. It always spawns a second window on this machine. Only `reopen_bambu.sh` may open it.
 - The window must come back in the same place on the same monitor.
-- Quitting discards unsaved changes in Bambu Studio. Before step 9, look at the session folder under `$TMPDIR/bamboo_model/<day>/*#<pid>#*`: if files there are newer than the project file, Alex may have unsaved work. Say so and ask before closing.
+- Quitting discards unsaved changes in Bambu Studio. Step 8 checks for them; never skip it before closing.
 - Print settings and filaments in the project belong to Alex. The build only replaces shapes.
+- Do not edit print settings inside the project file. On load Bambu Studio applies its own preset values by preset name again, so such edits are silently dropped (seen 2026-11-22: wall speeds written into the file came back as the preset's 200/300). Choosing a different filament preset by name does work. A setting that must differ from the preset has to be changed by Alex in Bambu Studio and saved there.
 
 ## When to stop and ask
 

@@ -117,7 +117,19 @@ def build(template_path, plates_dir, output_path):
     return report
 
 
+def identical(first_path, second_path):
+    with zipfile.ZipFile(first_path) as first, zipfile.ZipFile(second_path) as second:
+        if first.namelist() != second.namelist():
+            return False
+        return all(first.read(name) == second.read(name) for name in first.namelist())
+
+
 if __name__ == "__main__":
     template_path, plates_dir, output_path = sys.argv[1:4]
     for part_id, plate_name, volume, old_faces, new_faces, shift in build(template_path, plates_dir, output_path):
         print(f"part {part_id}: {plate_name}[{volume}] faces {old_faces} -> {new_faces}, bounds change {shift:.6f} mm")
+    if identical(template_path, output_path):
+        Path(output_path).unlink()
+        print("PROJECT UNCHANGED: no output written")
+    else:
+        print(f"PROJECT CHANGED: {output_path}")
